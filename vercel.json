@@ -8,7 +8,19 @@
     ],
     "routes": [
       {
-        "src": "/api/(.*)",
+        "src": "/api/user/(.*)",
+        "dest": "/index.js"
+      },
+      {
+        "src": "/api/admin/(.*)",
+        "dest": "/index.js"
+      },
+      {
+        "src": "/api/course/(.*)",
+        "dest": "/index.js"
+      },
+      {
+        "src": "/(.*)",
         "dest": "/index.js"
       }
     ]
