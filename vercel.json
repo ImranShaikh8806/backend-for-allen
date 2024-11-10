@@ -8,15 +8,15 @@
     ],
     "routes": [
       {
-        "src": "/api/user/(.*)",
+        "src": "/user/(.*)",
         "dest": "/index.js"
       },
       {
-        "src": "/api/admin/(.*)",
+        "src": "/admin/(.*)",
         "dest": "/index.js"
       },
       {
-        "src": "/api/course/(.*)",
+        "src": "/course/(.*)",
         "dest": "/index.js"
       },
       {
